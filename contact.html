@@ -1,57 +1,64 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Contact Michael</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
 
-    <body>
-        <div class="firstContainer">
-            <div class="secondContainer">
-                <div class="mainHeader">
-                    <h1 class="headerName">Michael Dwyer</h1>
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li class="navLi"><a href="index.html">About</a></li>
-                        <li class="navLi"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="navLi"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Michael</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="firstContainer">
+        <div class="secondContainer">
+            <div class="mainHeader">
+                <h1 class="headerName">Michael Dwyer</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="navLi"><a href="index.html">About</a></li>
+                    <li class="navLi"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="navLi"><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
         </div>
+    </div>
 
-        <div class="thirdContainer">
-            <div class="fourthContainer">
+    <div class="thirdContainer">
+        <div class="fourthContainer">
 
             <h1 class="headerAbout">Contact</h1>
 
-        <hr>
+            <hr>
 
-        <div class="container">
+            <div class="container">
 
-            <form action="action_page.php">
-              
-                <label for="fname">Name</label><br>
-                <input type="text" id="fname" name="firstname" placeholder="John Smith"><br>
-              
-                <label for="lname">Email</label><br>
-                <input type="text" id="lname" name="lastname" placeholder="example@gmail.com"><br>
-              
-                <label for="subject">Message</label><br>
-                <textarea id="subject" name="subject" placeholder="Type your message here..." style="height:200px"></textarea><br>
-              
-                <input class="submit" type="submit" value="Submit">
-              
-            </form>
+                <form action="action_page.php">
 
-        </div>
-        
-      </body>
+                    <label for="name">Name</label>
+                    <br>
+                    <input class="formFields" type="text" id="fname" name="firstname" placeholder="John Smith">
+                    <br>
 
-      <div class="footer">
-          <p class="copyright">Copyright &copy;</p>
-      </div>
-  
-  </html>
+                    <label for="email">Email</label>
+                    <br>
+                    <input class="formFields" type="email" id="lname" name="lastname" placeholder="example@gmail.com">
+                    <br>
+
+                    <label for="subject">Message</label>
+                    <br>
+                    <textarea class="formFields" id="subject" name="subject" placeholder="Type your message here..." style="height:100px"></textarea>
+                    <br>
+
+                    <input class="submit" type="submit" value="Submit">
+
+                </form>
+
+            </div>
+
+</body>
+
+<div class="footer">
+    <p class="copyright">Copyright &copy;</p>
+</div>
+
+</html>
